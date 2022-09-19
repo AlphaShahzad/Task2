@@ -46,7 +46,7 @@ body {
     max-width: 100%;
     width: 200px;
     height: 36px;
-    border:none;
+    border: none;
     align-items: center;
     margin-top: 48px;
     margin-right: 20px;
@@ -84,11 +84,23 @@ span {
     font-size: 40px;
     line-height: 20px;
 }
-b{
+
+b {
     font-weight: 800;
 }
 
 
+
+.email1 {
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: -6%;
+    background-color: #262626;
+    padding-left: 20px;
+    border: none;
+    width: 305px;
+    margin-left: 60px;
+}
 
 .email {
     padding: 15px;
@@ -110,6 +122,15 @@ b{
     margin-left: -169px;
     border: none;
 }
+.btn2 {
+    font-family: 'Montserrat';
+    background-color: #0685F1;
+    border-radius: 30px;
+    width: 160px;
+    height: 36px;
+    margin-left: -169px;
+    border: none;
+}
 
 .container5 {
     display: flex;
@@ -123,8 +144,9 @@ b{
     margin-right: 20px;
 
 }
-.head1{
-    margin-left:30px;
+
+.head1 {
+    margin-left: 30px;
     margin-top: 50px;
 }
 
@@ -147,6 +169,11 @@ b{
 }
 
 .para2 {
+    width: 55%;
+    color: white;
+}
+
+.para3 {
     width: 55%;
     color: white;
 }
@@ -204,17 +231,210 @@ b{
     color: white;
     margin-left: -71%;
 }
-.container11{
+
+.container11 {
     color: white;
     margin-left: 30%;
     margin-top: 50px;
     font-family: 'Avenir LT Std';
     line-height: 160%;
 }
-.p{
+
+.p {
     margin-left: 155px;
     color: #A3A3A3;
 }
-.pic{
+
+.pic {
     opacity: 0.3;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+    .container2 {
+        max-width: 100%;
+        width: 7%;
+        font-size: 8px;
+        margin-left: -15px;
+        margin-top: -35px;
+    }
+    .logo{
+        width: 35px;
+    }
+
+    span {
+        font-size: 20px;
+        margin-left: -15px;
+    }
+
+    .img {
+        width: 270px;
+        margin-top: 0px;
+        margin-left: -6px;
+    }
+    .button{
+        max-width: 100%;
+        width: 152px;
+        margin-left: 80px;
+    }
+
+    .pr {
+        max-width: 100%;
+        width: 200px;
+        margin-left: -15px;
+    }
+
+    .container3 {
+
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    .container4 {
+        display: flex;
+        margin-left: -30px;
+        margin-top: 40px;
+
+    }
+
+    .email1 {
+        width: 200px;
+        padding: 10px 20px 10px 20;
+        height: fit-content;
+        margin-top: -5px;
+    }
+
+    .btn {
+        width: 100px;
+        margin-left: -106px;
+        padding: 4px;
+    }
+
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        color: white;
+        background-image: url(Mask.png);
+        font-size: 12px;
+        height: 660px;
+    }
+
+    .head1 {
+        font-size: 12px;
+        margin-left: 18px;
+
+    }
+
+    .para {
+        width: 272px;
+        margin-top: 105px;
+        position: absolute;
+        margin-left: 19px;
+    }
+
+    .rect {
+        max-width: 100%;
+        max-height: 100%;
+        height: 400px;
+        width: 300px;
+        align-items: center;
+        margin-left: 63%;
+    }
+
+    span {
+        font-size: 19px;
+        margin-left: -10px;
+    }
+
+    .para2 {
+        width: 110%;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+
+    .para2 {
+        width: 110%;
+        margin-left: -10px;
+        font-size: 12px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .container8 {
+        margin-top: 20px;
+    }
+
+    .img9 {
+        max-width: 100%;
+        width: 250px;
+        margin-left: -11px;
+    }
+
+    .container6 {
+        margin-top: 20px;
+    }
+
+    .container9 {
+        flex-direction: column;
+        margin-left: 26px;
+        max-width: 100%;
+        width: 90px;
+    }
+
+    .email {
+        width: 200px;
+        padding: 10px 20px 10px 20;
+        height: fit-content;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .btn2 {
+        width: 100px;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: -40px;
+    }
+
+    .para3 {
+        width: 190%;
+        margin-left: -60px;
+        margin-top: -70px;
+    }
+.pic{
+    max-width: 100%;
+    width: 100px;
+    opacity: 0.2;
+    margin-top: 33px;
+}
+.container10{
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+.frm{
+    padding: 5px;
+}
+.log{
+    width: 43px;
+}
+.hd{
+    font-size: 12px;
+    margin-left: 0;
+}
+.pic2{
+    margin-left: 25px;
+}
+.p{
+    margin-left: 52px;
+    margin-top: -40px;
+}
+.container11{
+    font-size: 10px;
+    margin-left: 25px;
+}
+
 }
