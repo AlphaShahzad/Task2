@@ -513,7 +513,7 @@ b {
         font-size: 10px;
         margin-left: 12px;
     }
-
+}
     @media (max-width:768px) and (min-width: 641px) {
 
 
@@ -782,4 +782,3 @@ b {
             margin-left: 12px;
         }
     }
-}
