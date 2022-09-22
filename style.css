@@ -121,6 +121,7 @@ b {
     height: 36px;
     margin-left: -169px;
     border: none;
+    color: rgba(255, 255, 255, 1);
 }
 
 .btn2 {
@@ -131,6 +132,7 @@ b {
     height: 36px;
     margin-left: -169px;
     border: none;
+    color: rgba(255, 255, 255, 1);
 }
 
 .container5 {
@@ -246,13 +248,15 @@ b {
     opacity: 0.3;
 }
 
-@media (max-width: 640px) and (min-width: 320px) {
+@media (max-width: 320px) {
+
     .container2 {
         max-width: 100%;
         width: 346px;
         margin-left: -1px;
         margin-top: -53px;
     }
+
 
     .logo {
         max-width: 100%;
@@ -514,271 +518,563 @@ b {
         margin-left: 12px;
     }
 }
-    @media (max-width:768px) and (min-width: 641px) {
+
+@media (max-width: 768px) {
 
 
-        .container2 {
-            max-width: 100%;
-            width: 42%;
-            margin-left: -7px;
-            margin-top: -53px;
-            padding: 3px;
-        }
-
-        .logo {
-            max-width: 100%;
-            width: 30px;
-            margin-left: 0;
-            margin-top: 59px;
-        }
-
-        .wove {
-            font-size: 8px;
-            margin-left: -58px;
-            margin-top: 55px;
-        }
-
-        .button {
-            max-width: 100%;
-            width: 71px;
-            margin-left: 70px;
-            font-size: 8px;
-            margin-right: 0;
-        }
-
-        .container3 {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            color: white;
-            max-width: 100%;
-            width: 262px;
-            margin-left: -7px;
-            height: 88px;
-            padding: 3px;
-        }
-
-        .img {
-            max-width: 100%;
-            width: 290px;
-            margin-top: 0;
-            margin-right: 4px;
-
-        }
-
-        .head {
-            margin-top: 25px;
-        }
-
-        .span1 {
-            color: white;
-            font-size: 12px;
-            margin-left: -23px;
-            margin-top: -23px;
-
-        }
-
-        .pr {
-            font-size: 7px;
-            max-width: 100%;
-            width: 140px;
-            margin-left: -23px;
-            margin-top: -16px;
-        }
-
-        .container4 {
-
-            max-width: 100%;
-            width: 160px;
-            margin-left: -7px;
-            margin-top: 6px;
-            padding-left: 8px;
-
-        }
-
-        .email1 {
-            max-width: 100%;
-            width: 133px;
-            margin-left: 0px;
-            margin-top: 11px;
-            padding: 4px;
-            font-size: 9px;
-            padding-left: 8px;
-        }
-
-        .btn {
-            max-width: 100%;
-            width: 76px;
-            font-size: 6px;
-            height: 17px;
-            margin-left: -78px;
-            position: absolute;
-            margin-top: 12px;
-        }
-
-        .container5 {
-            max-width: 100%;
-            width: 263px;
-            height: 350px;
-            margin-left: -8px;
-            margin-top: 14px;
-            background-image: url(Mask.png);
-        }
-
-        .head1 {
-            font-size: 8px;
-            margin-left: 7px;
-            margin-top: 6px;
-        }
-
-        .para {
-            font-size: 7px;
-            width: 100px;
-            margin-top: 15px;
-            margin-left: 50px;
-        }
-
-        .rect {
-            width: 224px;
-            height: 274px;
-            margin-left: -78px;
-            margin-top: 7px;
-        }
-
-        .container6 {
-            max-width: 100%;
-            width: 262px;
-            margin-left: -8px;
-            margin-top: 0px;
-        }
-
-        span {
-            font-size: 12px;
-            margin-left: 11px;
-        }
-
-        .para2 {
-            width: 180px;
-            font-size: 7px;
-            margin-left: 11px;
-            margin-top: 0px;
-        }
-
-        .container7 {
-            flex-direction: column;
-            max-width: 100%;
-            width: 262px;
-            margin-left: -8px;
-        }
-
-        .frm {
-            padding: 10px;
-        }
-
-        .container8 {
-            border: 1px solid white;
-            margin-left: -8px;
-            margin-top: 0;
-            max-width: 100%;
-            width: 262px;
-        }
-
-        .para2 {
-            width: 246px;
-        }
-
-        .img9 {
-            width: 262px;
-        }
-
-        .container9 {
-            max-width: 100%;
-            width: 87px;
-            height: 6px;
-            margin-left: -8px;
-            margin-top: 0;
-        }
-
-        .para3 {
-            width: 262px;
-            height: 135px;
-            margin-left: -79px;
-            margin-top: -58px;
-        }
-
-        .span3 {
-            font-size: 12px;
-        }
-
-        .para4 {
-            font-size: 7px;
-            width: 174px;
-        }
-
-        .email {
-            max-width: 100%;
-            width: 133px;
-            margin-left: 0px;
-            margin-top: 11px;
-            padding: 4px;
-            font-size: 9px;
-            padding-left: 8px;
-        }
-
-        .btn2 {
-            max-width: 100%;
-            width: 76px;
-            font-size: 6px;
-            height: 17px;
-            margin-left: -78px;
-            position: absolute;
-            margin-top: 12px;
-        }
-
-        .pic {
-            width: 72px;
-            margin-top: -22px;
-            opacity: 0.1;
-        }
-
-        .container10 {
-
-            max-width: 100%;
-            width: 262px;
-            margin-left: -7px;
-            margin-top: 10px;
-        }
-
-        .log {
-            width: 30px;
-        }
-
-        .hd {
-            font-size: 8px;
-            margin-left: -70px;
-            margin-top: -5px;
-        }
-
-        .pic2 {
-            width: 100px;
-            padding-right: 7px;
-        }
-
-        .container11 {
-            max-width: 100%;
-            width: 262px;
-            margin-left: -9px;
-            margin-top: 6px;
-        }
-
-        .p {
-            font-size: 7px;
-            margin-left: 67px;
-            width: 110px;
-        }
-
-        h2 {
-            font-size: 10px;
-            margin-left: 12px;
-        }
+    .container2 {
+        max-width: 100%;
+        width: 42%;
+        margin-left: -7px;
+        margin-top: -53px;
+        padding: 3px;
     }
+
+    .logo {
+        max-width: 100%;
+        width: 30px;
+        margin-left: 0;
+        margin-top: 59px;
+    }
+
+    .wove {
+        font-size: 8px;
+        margin-left: -58px;
+        margin-top: 55px;
+    }
+
+    .button {
+        max-width: 100%;
+        width: 71px;
+        margin-left: 70px;
+        font-size: 8px;
+        margin-right: 0;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        max-width: 100%;
+        width: 262px;
+        margin-left: -7px;
+        height: 88px;
+        padding: 3px;
+    }
+
+    .img {
+        max-width: 100%;
+        width: 290px;
+        margin-top: 0;
+        margin-right: 4px;
+
+    }
+
+    .head {
+        margin-top: 25px;
+    }
+
+    .span1 {
+        color: white;
+        font-size: 12px;
+        margin-left: -23px;
+        margin-top: -23px;
+
+    }
+
+    .pr {
+        font-size: 7px;
+        max-width: 100%;
+        width: 140px;
+        margin-left: -23px;
+        margin-top: -16px;
+    }
+
+    .container4 {
+
+        max-width: 100%;
+        width: 160px;
+        margin-left: -7px;
+        margin-top: 6px;
+        padding-left: 8px;
+
+    }
+
+    .email1 {
+        max-width: 100%;
+        width: 133px;
+        margin-left: 0px;
+        margin-top: 11px;
+        padding: 4px;
+        font-size: 9px;
+        padding-left: 8px;
+    }
+
+    .btn {
+        max-width: 100%;
+        width: 76px;
+        font-size: 6px;
+        height: 17px;
+        margin-left: -78px;
+        position: absolute;
+        margin-top: 12px;
+    }
+
+    .container5 {
+        max-width: 100%;
+        width: 263px;
+        height: 350px;
+        margin-left: -8px;
+        margin-top: 14px;
+        background-image: url(Mask.png);
+    }
+
+    .head1 {
+        font-size: 8px;
+        margin-left: 7px;
+        margin-top: 6px;
+    }
+
+    .para {
+        font-size: 7px;
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+
+    .rect {
+        width: 224px;
+        height: 274px;
+        margin-left: -78px;
+        margin-top: 7px;
+    }
+
+    .container6 {
+        max-width: 100%;
+        width: 262px;
+        margin-left: -8px;
+        margin-top: 0px;
+    }
+
+    span {
+        font-size: 12px;
+        margin-left: 11px;
+    }
+
+    .para2 {
+        width: 180px;
+        font-size: 7px;
+        margin-left: 11px;
+        margin-top: 0px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        max-width: 100%;
+        width: 262px;
+        margin-left: -8px;
+    }
+
+    .frm {
+        padding: 10px;
+    }
+
+    .container8 {
+        border: 1px solid white;
+        margin-left: -8px;
+        margin-top: 0;
+        max-width: 100%;
+        width: 262px;
+    }
+
+    .para2 {
+        width: 246px;
+    }
+
+    .img9 {
+        width: 262px;
+    }
+
+    .container9 {
+        max-width: 100%;
+        width: 87px;
+        height: 6px;
+        margin-left: -8px;
+        margin-top: 0;
+    }
+
+    .para3 {
+        width: 262px;
+        height: 135px;
+        margin-left: -79px;
+        margin-top: -58px;
+    }
+
+    .span3 {
+        font-size: 12px;
+    }
+
+    .para4 {
+        font-size: 7px;
+        width: 174px;
+    }
+
+    .email {
+        max-width: 100%;
+        width: 133px;
+        margin-left: 0px;
+        margin-top: 11px;
+        padding: 4px;
+        font-size: 9px;
+        padding-left: 8px;
+    }
+
+    .btn2 {
+        max-width: 100%;
+        width: 76px;
+        font-size: 6px;
+        height: 17px;
+        margin-left: -78px;
+        position: absolute;
+        margin-top: 12px;
+    }
+
+    .pic {
+        width: 72px;
+        margin-top: -22px;
+        opacity: 0.1;
+    }
+
+    .container10 {
+
+        max-width: 100%;
+        width: 262px;
+        margin-left: -7px;
+        margin-top: 10px;
+    }
+
+    .log {
+        width: 30px;
+    }
+
+    .hd {
+        font-size: 8px;
+        margin-left: -70px;
+        margin-top: -5px;
+    }
+
+    .pic2 {
+        width: 100px;
+        padding-right: 7px;
+    }
+
+    .container11 {
+        max-width: 100%;
+        width: 262px;
+        margin-left: -9px;
+        margin-top: 6px;
+    }
+
+    .p {
+        font-size: 7px;
+        margin-left: 67px;
+        width: 110px;
+    }
+
+    h2 {
+        font-size: 10px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width:1280px) {
+
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        margin-left: -7px;
+        width: 841px;
+    }
+
+    .logo {
+        margin-top: 16px;
+        margin-left: 30px;
+        margin-right: 0;
+        width: 50px;
+    }
+
+    .wove {
+        color: white;
+        font-family: 'Montserrat';
+        /* font-weight: 800; */
+        margin-top: 14px;
+        margin-left: -402px;
+        font-size: 13px;
+    }
+
+    .button {
+        font-family: 'Montserrat';
+        max-width: 100%;
+        width: 230px;
+        height: 43px;
+        align-items: center;
+        margin-top: 15px;
+        margin-right: 36px;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        font-size: 13px;
+        border: 1px solid rgba(163, 163, 163, 1);
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        margin-left: -7px;
+        margin-right: 0;
+        width: 840px;
+    }
+
+    .img {
+        max-width: 100%;
+        width: 343px;
+        margin-top: 65px;
+        margin-right: 37px;
+
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 31px;
+        color: white;
+        font-size: 40px;
+
+    }
+
+    .span1 {
+        color: white;
+        font-size: 34px;
+        line-height: 1;
+        margin-left: 10px;
+
+    }
+
+    .pr {
+        color: rgba(163, 163, 163, 1);
+        font-size: 12px;
+        max-width: 100%;
+        width: 427px;
+        margin-left: 9px;
+        margin-top: -19px;
+    }
+
+    .container4 {
+
+        max-width: 100%;
+        width: 833px;
+        margin-left: -7px;
+
+    }
+
+    .email1 {
+        max-width: 100%;
+        width: 334px;
+        margin-left: 38px;
+        margin-top: 11px;
+        padding: 11px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .btn {
+        max-width: 100%;
+        width: 162px;
+        font-size: 13px;
+        height: 30px;
+        margin-left: -166px;
+        position: absolute;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .container5 {
+        max-width: 100%;
+        width: 844px;
+        height: 727px;
+        margin-left: -7px;
+        margin-top: 14px;
+        background-image: url(Mask.png);
+    }
+
+    .head1 {
+        font-size: 14px;
+        margin-left: 48px;
+        margin-top: 58px;
+    }
+
+    .para {
+        color: rgba(163, 163, 163, 1);
+        font-size: 11px;
+        width: 250px;
+        margin-top: 84px;
+    }
+
+    .rect {
+        width: 741px;
+        height: 484px;
+        margin-left: -794px;
+        margin-top: 149px;
+    }
+
+    .container6 {
+        max-width: 100%;
+        width: 843px;
+        margin-left: -7px;
+        margin-top: 120px;
+    }
+
+    span {
+        font-size: 28px;
+        margin-left: 58px;
+    }
+
+    .para2 {
+        width: 483px;
+        margin-left: 61px;
+        font-size: 11px;
+        margin-top: 13px;
+        color: rgba(163, 163, 163, 1);
+    }
+
+    .container7 {
+        width: 717px;
+        margin-left: 51px;
+        margin-top: 30px;
+    }
+
+    .frm {
+        width: 230px;
+        margin-top: 30px;
+    }
+
+    .container8 {
+        margin-left: -6px;
+        margin-top: 50px;
+        max-width: 100%;
+        width: 843px;
+    }
+
+    .para2 {
+        width: 483px;
+    }
+
+    .img9 {
+        width: 873px;
+        margin-top: 40px;
+    }
+
+    .container9 {
+        max-width: 100%;
+        width: 536px;
+        height: 100px;
+        margin-left: 48px;
+        margin-top: 62px;
+        border-radius: 10px;
+    }
+
+    .para3 {
+        width: 401px;
+        height: 178px;
+        margin-left: -52px;
+        margin-top: -39px;
+    }
+
+    .span3 {
+        font-size: 26px;
+        margin-left: 0;
+    }
+
+    .para4 {
+        font-size: 10px;
+        width: 400px;
+        color: rgba(163, 163, 163, 1);
+    }
+
+    .email {
+        max-width: 100%;
+        width: 334px;
+        margin-left: 0px;
+        margin-top: 26px;
+        padding: 11px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .btn2 {
+        max-width: 100%;
+        width: 162px;
+        font-size: 13px;
+        height: 30px;
+        margin-left: -166px;
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .pic {
+        width: 218px;
+        margin-top: -22px;
+        margin-left: 0px;
+        opacity: 0.1;
+    }
+
+    .container10 {
+
+        max-width: 100%;
+        width: 871px;
+        margin-left: -7px;
+        margin-top: 20px;
+        height: 88px;
+    }
+
+    .log {
+        margin-top: 16px;
+        margin-left: 55px;
+        width: 56px;
+    }
+
+    .hd {
+        margin-top: 14px;
+        margin-left: -376px;
+        font-size: 14px;
+    }
+
+    .pic2 {
+        width: 179px;
+        margin-right: 102px;
+    }
+
+    .container11 {
+        max-width: 100%;
+        width: 873px;
+        margin-left: -8px;
+        margin-top: 15px;
+    }
+
+    .p {
+        font-size: 12px;
+        margin-left: 307px;
+        width: 209px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-left: 210px;
+    }
+}
