@@ -1,9 +1,8 @@
 body {
     background-color: black;
+    font-family: 'Montserrat';
 }
-/* *{
-    outline: 1px solid white;
-} */
+
 
 @font-face {
     font-family: 'Montserrat';
@@ -139,8 +138,6 @@ b {
 }
 
 .container5 {
-    display: flex;
-    justify-content: space-between;
     max-width: 100%;
     width: 1325px;
     height: 727px;
@@ -158,17 +155,19 @@ b {
 
 .para {
     color: rgba(163, 163, 163, 1);
-    font-size: 11px;
-    width: 250px;
-    margin-top: 84px;
-    margin-left: 825px;
+    font-size: 16px;
+    width: 350px;
+    margin-top: 0;
+    margin-left: 863px;
+    margin-top: -45px;
 }
 
 .rect {
     width: 1207px;
     height: 536px;
-    margin-top: 147px;
-    margin-left: -101%;
+    margin-top: 30px;
+    margin-left: 58px;
+
 }
 
 .container6 {
