@@ -1,6 +1,9 @@
 body {
     background-color: black;
 }
+/* *{
+    outline: 1px solid white;
+} */
 
 @font-face {
     font-family: 'Montserrat';
@@ -138,45 +141,34 @@ b {
 .container5 {
     display: flex;
     justify-content: space-between;
-    color: white;
-    margin-top: 100px;
+    max-width: 100%;
+    width: 1325px;
+    height: 727px;
+    margin-left: 2px;
+    margin-top: 14px;
     background-image: url(Mask.png);
-    height: 1100px;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-
 }
 
 .head1 {
-    margin-left: 30px;
-    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+    margin-left: 48px;
+    margin-top: 58px;
 }
 
 .para {
-    color: white;
-    width: 358px;
-    margin-top: 79px;
-    margin-left: 57%;
+    color: rgba(163, 163, 163, 1);
+    font-size: 11px;
+    width: 250px;
+    margin-top: 84px;
+    margin-left: 825px;
 }
 
 .rect {
-    margin-top: 4%;
-    margin-left: -10%;
-    width: 1093px;
-    height: 850px;
-
-}
-
-
-.para2 {
-    width: 55%;
-    color: white;
-}
-
-.para3 {
-    width: 55%;
-    color: white;
+    width: 1207px;
+    height: 536px;
+    margin-top: 147px;
+    margin-left: -101%;
 }
 
 .container6 {
